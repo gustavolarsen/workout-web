@@ -10,13 +10,20 @@
   --color-button-secundary: #1f1c26;
   --color-input-background: #fff;
   --color-border-line: #59253e;
+
+  --page-padding: max((100% - 1168px)/2, 5%);
 }
 
-html,
-body {
+* {
   padding: 0;
   margin: 0;
   font-family: Poppins, sans-serif;
+  list-style: none;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
 }
 
 a {

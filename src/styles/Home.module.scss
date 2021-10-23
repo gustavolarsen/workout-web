@@ -1,0 +1,10 @@
+.container {
+  margin: auto;
+  padding: 0 var(--page-padding);
+  width: 100vw;
+  height: 100vh;
+
+  h1 {
+    color: var(--color-text-title);
+  }
+}

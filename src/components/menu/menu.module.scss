@@ -1,0 +1,43 @@
+.menuContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+
+  .menu {
+    color: var(--color-text-title);
+
+    ul {
+      display: flex;
+
+      li {
+        display: flex;
+        margin-left: 15px;
+
+        a {
+          display: block;
+          padding: 0px 15px;
+        }
+
+        .loginButton {
+          background-color: var(--color-button-primary);
+          border: 0.05rem solid var(--color-button-primary);
+
+          &:hover {
+            opacity: 0.8;
+          }
+        }
+
+        .signInButton {
+          border: 0.05rem solid var(--color-text-title);
+
+          &:hover {
+            color: var(--color-background);
+            background-color: var(--color-text-title);
+          }
+        }
+      }
+    }
+  }
+}
