@@ -1,0 +1,73 @@
+.workoutPlan {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  .workoutPlanText {
+    display: flex;
+    min-width: 431px;
+    flex-direction: column;
+    justify-content: space-between;
+
+    > div {
+      h1 {
+        font-weight: 700;
+        font-size: 4rem;
+        letter-spacing: 0.215em;
+        text-transform: uppercase;
+        color: var(--color-text-title);
+        line-height: 60px;
+      }
+
+      h2 {
+        font-weight: 500;
+        font-size: 1.9rem;
+        letter-spacing: 0.215em;
+        text-transform: uppercase;
+        color: var(--color-text-title);
+      }
+
+      p {
+        font-size: 0.85rem;
+        font-weight: 400;
+        line-height: 21px;
+        max-width: 392px;
+      }
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: space-between;
+
+      .tryForFree {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        font-weight: 600;
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        width: 190px;
+        height: 70px;
+        background-color: var(--color-button-primary);
+        color: var(--color-text-title);
+      }
+    }
+  }
+
+  .right {
+    display: flex;
+    flex-wrap: wrap;
+
+    img {
+      border-radius: 20px;
+    }
+
+    .exploreMore {
+      margin-left: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }
+}

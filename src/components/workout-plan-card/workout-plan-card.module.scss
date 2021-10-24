@@ -1,0 +1,31 @@
+.workoutPlanCard {
+  width: 335px;
+  background-color: var(--color-card-background);
+  border-radius: 10px;
+  padding: 25px;
+
+  h1 {
+    color: var(--color-text-title);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 0.85rem;
+    margin: 15px 0;
+    line-height: 21px;
+  }
+
+  .exploreMore {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.12rem;
+    color: var(--color-text-title);
+
+    a {
+      margin-left: 15px;
+    }
+  }
+}
